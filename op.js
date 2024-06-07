@@ -15,16 +15,16 @@ console.log(studentname, studentage, studentgrade, attendance)
 
 // TASK 3
 let age;
-age = 100 + studentage
+age = attendance + studentage
 console.log("Sum:", age, "\nThat's old.")
 
-age = 100 - studentage
+age = studentgrade - studentage
 console.log("Difference:", age, "\nThat's not so old anymore.")
 
-age = 100 * studentage
+age = attendance * studentage
 console.log("Product:", age, "\nWow! That's old!")
 
-age = 100 / studentage
+age = studentgrade / studentage
 console.log("Quotient:", age, "\nThat's questionably old.")
 
 // Using these numbers throughout the assignment
